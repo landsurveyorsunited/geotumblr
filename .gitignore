@@ -1,0 +1,3 @@
+# this is stupid, but I don't want to check in my mapbox id.
+examples/
+*.geojson
