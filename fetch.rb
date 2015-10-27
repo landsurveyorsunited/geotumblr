@@ -8,10 +8,10 @@ require 'tumblr_client'
 require 'chunky_png'
 
 Tumblr.configure do |config|
-  config.consumer_key = ENV['TUMBLR_API_KEY']
+  config.consumer_key = ENV['aYYIthFjQWCWwEcUn1AnKt1WQMhIjqsgFccJhilC5R4QvHpfBG']
 end
 
-blog_name = ENV['TUMBLR_NAME']
+blog_name = ENV['landsurveyorsunited']
 
 client = Tumblr::Client.new
 
